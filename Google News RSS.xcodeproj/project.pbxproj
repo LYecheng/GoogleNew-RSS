@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29BBA80D1A9C2C0C00BFFAB9 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBA8081A9C2C0C00BFFAB9 /* Article.m */; };
+		29BBA80E1A9C2C0C00BFFAB9 /* FileSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBA80A1A9C2C0C00BFFAB9 /* FileSession.m */; };
+		29BBA8121A9C2C9E00BFFAB9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 29BBA8111A9C2C9E00BFFAB9 /* Settings.bundle */; };
+		29BBA8141A9C3A8D00BFFAB9 /* News.png in Resources */ = {isa = PBXBuildFile; fileRef = 29BBA8131A9C3A8D00BFFAB9 /* News.png */; };
+		29CA2F501A91E8CE00A2F861 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CA2F4F1A91E8CE00A2F861 /* main.m */; };
+		29CA2F531A91E8CE00A2F861 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CA2F521A91E8CE00A2F861 /* AppDelegate.m */; };
+		29CA2F561A91E8CE00A2F861 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CA2F551A91E8CE00A2F861 /* MasterViewController.m */; };
+		29CA2F591A91E8CE00A2F861 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CA2F581A91E8CE00A2F861 /* DetailViewController.m */; };
+		29CA2F5C1A91E8CE00A2F861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CA2F5A1A91E8CE00A2F861 /* Main.storyboard */; };
+		29CA2F5E1A91E8CE00A2F861 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29CA2F5D1A91E8CE00A2F861 /* Images.xcassets */; };
+		29CA2F611A91E8CE00A2F861 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29CA2F5F1A91E8CE00A2F861 /* LaunchScreen.xib */; };
+		29CA2F6D1A91E8CE00A2F861 /* Google_News_RSSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CA2F6C1A91E8CE00A2F861 /* Google_News_RSSTests.m */; };
+		29CA2F801A91EAE400A2F861 /* SharedNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CA2F7F1A91EAE400A2F861 /* SharedNetworking.m */; };
+		29CA2F831A91EB7700A2F861 /* MasterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CA2F821A91EB7700A2F861 /* MasterCell.m */; };
+		29CA2F861A91EBAB00A2F861 /* BookmarkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CA2F851A91EBAB00A2F861 /* BookmarkTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29CA2F671A91E8CE00A2F861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29CA2F421A91E8CE00A2F861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29CA2F491A91E8CE00A2F861;
+			remoteInfo = "Google News RSS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29BBA8071A9C2C0C00BFFAB9 /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		29BBA8081A9C2C0C00BFFAB9 /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
+		29BBA8091A9C2C0C00BFFAB9 /* FileSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSession.h; sourceTree = "<group>"; };
+		29BBA80A1A9C2C0C00BFFAB9 /* FileSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSession.m; sourceTree = "<group>"; };
+		29BBA8111A9C2C9E00BFFAB9 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		29BBA8131A9C3A8D00BFFAB9 /* News.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = News.png; sourceTree = "<group>"; };
+		29CA2F4A1A91E8CE00A2F861 /* Google News RSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google News RSS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CA2F4E1A91E8CE00A2F861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29CA2F4F1A91E8CE00A2F861 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29CA2F511A91E8CE00A2F861 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29CA2F521A91E8CE00A2F861 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; wrapsLines = 0; };
+		29CA2F541A91E8CE00A2F861 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		29CA2F551A91E8CE00A2F861 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		29CA2F571A91E8CE00A2F861 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		29CA2F581A91E8CE00A2F861 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		29CA2F5B1A91E8CE00A2F861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29CA2F5D1A91E8CE00A2F861 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29CA2F601A91E8CE00A2F861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		29CA2F661A91E8CE00A2F861 /* Google News RSSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google News RSSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CA2F6B1A91E8CE00A2F861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29CA2F6C1A91E8CE00A2F861 /* Google_News_RSSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Google_News_RSSTests.m; sourceTree = "<group>"; };
+		29CA2F761A91EA7A00A2F861 /* SLComposeServiceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLComposeServiceViewController.h; sourceTree = "<group>"; };
+		29CA2F771A91EA7A00A2F861 /* SLComposeSheetConfigurationItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLComposeSheetConfigurationItem.h; sourceTree = "<group>"; };
+		29CA2F781A91EA7A00A2F861 /* SLComposeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLComposeViewController.h; sourceTree = "<group>"; };
+		29CA2F791A91EA7A00A2F861 /* SLRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLRequest.h; sourceTree = "<group>"; };
+		29CA2F7A1A91EA7A00A2F861 /* SLServiceTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLServiceTypes.h; sourceTree = "<group>"; };
+		29CA2F7B1A91EA7A00A2F861 /* Social.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Social.h; sourceTree = "<group>"; };
+		29CA2F7C1A91EA7A00A2F861 /* SocialDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialDefines.h; sourceTree = "<group>"; };
+		29CA2F7E1A91EAE400A2F861 /* SharedNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SharedNetworking.h; path = ../SharedNetworking.h; sourceTree = "<group>"; };
+		29CA2F7F1A91EAE400A2F861 /* SharedNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SharedNetworking.m; path = ../SharedNetworking.m; sourceTree = "<group>"; };
+		29CA2F811A91EB7700A2F861 /* MasterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterCell.h; sourceTree = "<group>"; };
+		29CA2F821A91EB7700A2F861 /* MasterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterCell.m; sourceTree = "<group>"; };
+		29CA2F841A91EBAB00A2F861 /* BookmarkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkTableViewController.h; sourceTree = "<group>"; wrapsLines = 0; };
+		29CA2F851A91EBAB00A2F861 /* BookmarkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29CA2F471A91E8CE00A2F861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CA2F631A91E8CE00A2F861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29CA2F411A91E8CE00A2F861 = {
+			isa = PBXGroup;
+			children = (
+				29CA2F4C1A91E8CE00A2F861 /* Google News RSS */,
+				29CA2F691A91E8CE00A2F861 /* Google News RSSTests */,
+				29CA2F4B1A91E8CE00A2F861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29CA2F4B1A91E8CE00A2F861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29CA2F4A1A91E8CE00A2F861 /* Google News RSS.app */,
+				29CA2F661A91E8CE00A2F861 /* Google News RSSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29CA2F4C1A91E8CE00A2F861 /* Google News RSS */ = {
+			isa = PBXGroup;
+			children = (
+				29CA2F7D1A91EA9800A2F861 /* SocialHeaderFiles */,
+				29CA2F511A91E8CE00A2F861 /* AppDelegate.h */,
+				29CA2F521A91E8CE00A2F861 /* AppDelegate.m */,
+				29BBA8071A9C2C0C00BFFAB9 /* Article.h */,
+				29BBA8081A9C2C0C00BFFAB9 /* Article.m */,
+				29CA2F841A91EBAB00A2F861 /* BookmarkTableViewController.h */,
+				29CA2F851A91EBAB00A2F861 /* BookmarkTableViewController.m */,
+				29CA2F571A91E8CE00A2F861 /* DetailViewController.h */,
+				29CA2F581A91E8CE00A2F861 /* DetailViewController.m */,
+				29BBA8091A9C2C0C00BFFAB9 /* FileSession.h */,
+				29BBA80A1A9C2C0C00BFFAB9 /* FileSession.m */,
+				29CA2F811A91EB7700A2F861 /* MasterCell.h */,
+				29CA2F821A91EB7700A2F861 /* MasterCell.m */,
+				29CA2F541A91E8CE00A2F861 /* MasterViewController.h */,
+				29CA2F551A91E8CE00A2F861 /* MasterViewController.m */,
+				29CA2F7E1A91EAE400A2F861 /* SharedNetworking.h */,
+				29CA2F7F1A91EAE400A2F861 /* SharedNetworking.m */,
+				29CA2F4D1A91E8CE00A2F861 /* Supporting Files */,
+			);
+			path = "Google News RSS";
+			sourceTree = "<group>";
+		};
+		29CA2F4D1A91E8CE00A2F861 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29CA2F4E1A91E8CE00A2F861 /* Info.plist */,
+				29CA2F4F1A91E8CE00A2F861 /* main.m */,
+				29CA2F5A1A91E8CE00A2F861 /* Main.storyboard */,
+				29BBA8131A9C3A8D00BFFAB9 /* News.png */,
+				29CA2F5D1A91E8CE00A2F861 /* Images.xcassets */,
+				29CA2F5F1A91E8CE00A2F861 /* LaunchScreen.xib */,
+				29BBA8111A9C2C9E00BFFAB9 /* Settings.bundle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29CA2F691A91E8CE00A2F861 /* Google News RSSTests */ = {
+			isa = PBXGroup;
+			children = (
+				29CA2F6C1A91E8CE00A2F861 /* Google_News_RSSTests.m */,
+				29CA2F6A1A91E8CE00A2F861 /* Supporting Files */,
+			);
+			path = "Google News RSSTests";
+			sourceTree = "<group>";
+		};
+		29CA2F6A1A91E8CE00A2F861 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29CA2F6B1A91E8CE00A2F861 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29CA2F7D1A91EA9800A2F861 /* SocialHeaderFiles */ = {
+			isa = PBXGroup;
+			children = (
+				29CA2F7B1A91EA7A00A2F861 /* Social.h */,
+				29CA2F761A91EA7A00A2F861 /* SLComposeServiceViewController.h */,
+				29CA2F771A91EA7A00A2F861 /* SLComposeSheetConfigurationItem.h */,
+				29CA2F781A91EA7A00A2F861 /* SLComposeViewController.h */,
+				29CA2F791A91EA7A00A2F861 /* SLRequest.h */,
+				29CA2F7A1A91EA7A00A2F861 /* SLServiceTypes.h */,
+				29CA2F7C1A91EA7A00A2F861 /* SocialDefines.h */,
+			);
+			name = SocialHeaderFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29CA2F491A91E8CE00A2F861 /* Google News RSS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29CA2F701A91E8CE00A2F861 /* Build configuration list for PBXNativeTarget "Google News RSS" */;
+			buildPhases = (
+				29CA2F461A91E8CE00A2F861 /* Sources */,
+				29CA2F471A91E8CE00A2F861 /* Frameworks */,
+				29CA2F481A91E8CE00A2F861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google News RSS";
+			productName = "Google News RSS";
+			productReference = 29CA2F4A1A91E8CE00A2F861 /* Google News RSS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29CA2F651A91E8CE00A2F861 /* Google News RSSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29CA2F731A91E8CE00A2F861 /* Build configuration list for PBXNativeTarget "Google News RSSTests" */;
+			buildPhases = (
+				29CA2F621A91E8CE00A2F861 /* Sources */,
+				29CA2F631A91E8CE00A2F861 /* Frameworks */,
+				29CA2F641A91E8CE00A2F861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29CA2F681A91E8CE00A2F861 /* PBXTargetDependency */,
+			);
+			name = "Google News RSSTests";
+			productName = "Google News RSSTests";
+			productReference = 29CA2F661A91E8CE00A2F861 /* Google News RSSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29CA2F421A91E8CE00A2F861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Yecheng Li";
+				TargetAttributes = {
+					29CA2F491A91E8CE00A2F861 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 723KYE3F9E;
+					};
+					29CA2F651A91E8CE00A2F861 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 29CA2F491A91E8CE00A2F861;
+					};
+				};
+			};
+			buildConfigurationList = 29CA2F451A91E8CE00A2F861 /* Build configuration list for PBXProject "Google News RSS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29CA2F411A91E8CE00A2F861;
+			productRefGroup = 29CA2F4B1A91E8CE00A2F861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29CA2F491A91E8CE00A2F861 /* Google News RSS */,
+				29CA2F651A91E8CE00A2F861 /* Google News RSSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29CA2F481A91E8CE00A2F861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CA2F5C1A91E8CE00A2F861 /* Main.storyboard in Resources */,
+				29BBA8121A9C2C9E00BFFAB9 /* Settings.bundle in Resources */,
+				29BBA8141A9C3A8D00BFFAB9 /* News.png in Resources */,
+				29CA2F611A91E8CE00A2F861 /* LaunchScreen.xib in Resources */,
+				29CA2F5E1A91E8CE00A2F861 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CA2F641A91E8CE00A2F861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29CA2F461A91E8CE00A2F861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BBA80D1A9C2C0C00BFFAB9 /* Article.m in Sources */,
+				29CA2F531A91E8CE00A2F861 /* AppDelegate.m in Sources */,
+				29CA2F561A91E8CE00A2F861 /* MasterViewController.m in Sources */,
+				29CA2F801A91EAE400A2F861 /* SharedNetworking.m in Sources */,
+				29CA2F831A91EB7700A2F861 /* MasterCell.m in Sources */,
+				29CA2F501A91E8CE00A2F861 /* main.m in Sources */,
+				29CA2F861A91EBAB00A2F861 /* BookmarkTableViewController.m in Sources */,
+				29BBA80E1A9C2C0C00BFFAB9 /* FileSession.m in Sources */,
+				29CA2F591A91E8CE00A2F861 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CA2F621A91E8CE00A2F861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CA2F6D1A91E8CE00A2F861 /* Google_News_RSSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29CA2F681A91E8CE00A2F861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29CA2F491A91E8CE00A2F861 /* Google News RSS */;
+			targetProxy = 29CA2F671A91E8CE00A2F861 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29CA2F5A1A91E8CE00A2F861 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29CA2F5B1A91E8CE00A2F861 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29CA2F5F1A91E8CE00A2F861 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29CA2F601A91E8CE00A2F861 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29CA2F6E1A91E8CE00A2F861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		29CA2F6F1A91E8CE00A2F861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29CA2F711A91E8CE00A2F861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Google News RSS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29CA2F721A91E8CE00A2F861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Google News RSS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29CA2F741A91E8CE00A2F861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Google News RSSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google News RSS.app/Google News RSS";
+			};
+			name = Debug;
+		};
+		29CA2F751A91E8CE00A2F861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Google News RSSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google News RSS.app/Google News RSS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29CA2F451A91E8CE00A2F861 /* Build configuration list for PBXProject "Google News RSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CA2F6E1A91E8CE00A2F861 /* Debug */,
+				29CA2F6F1A91E8CE00A2F861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29CA2F701A91E8CE00A2F861 /* Build configuration list for PBXNativeTarget "Google News RSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CA2F711A91E8CE00A2F861 /* Debug */,
+				29CA2F721A91E8CE00A2F861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29CA2F731A91E8CE00A2F861 /* Build configuration list for PBXNativeTarget "Google News RSSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CA2F741A91E8CE00A2F861 /* Debug */,
+				29CA2F751A91E8CE00A2F861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29CA2F421A91E8CE00A2F861 /* Project object */;
+}
